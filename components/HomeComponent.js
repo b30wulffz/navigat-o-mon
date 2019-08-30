@@ -1,13 +1,10 @@
 import React from 'react';
 import { Text, View, ImageBackground, Image } from 'react-native';
-import { Button, Icon, Header } from 'react-native-elements';
-import {
-  createStackNavigator,
-  createNavigationContainer,
-} from 'react-navigation';
-import TopComponent from './TopComponent';
+import { Button, Header } from 'react-native-elements';
+import { createStackNavigator } from 'react-navigation';
 import Layer1 from './stackComponents/Layer1Component';
 import Layer2 from './stackComponents/Layer2Component';
+import { FontAwesome } from '@expo/vector-icons';
 
 class Home extends React.Component {
   static navigationOptions = {
@@ -23,7 +20,7 @@ class Home extends React.Component {
       <View style={{ flex: 1 }}>
         <Header
           leftComponent={
-            <Icon
+            <FontAwesome
               name="menu"
               onPress={() => this.props.navigation.openDrawer()}
             />
@@ -56,9 +53,8 @@ class Home extends React.Component {
             <Button
               onPress={this.onPress}
               icon={
-                <Icon
+                <FontAwesome
                   name="hand-pointer-o"
-                  type="font-awesome"
                   color="#ffffff"
                 />
               }

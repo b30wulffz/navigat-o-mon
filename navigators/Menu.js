@@ -1,8 +1,6 @@
 import React from 'react';
-import { Text, View } from 'react-native';
 import { createAppContainer, createDrawerNavigator } from 'react-navigation';
-
-import { Icon } from 'react-native-elements';
+import { FontAwesome } from '@expo/vector-icons';
 import Home from './HomePage';
 import AboutMe from '../components/AboutMe';
 import Bla from '../components/BlaComponent';
@@ -17,7 +15,11 @@ const MainNavigator = createAppContainer(
           title: 'Home',
           drawerLabel: 'Home',
           drawerIcon: ({ tintColor }) => (
-            <Icon name="home" type="font-awesome" size={24} color={tintColor} />
+            <FontAwesome
+              name="home" 
+              size={24} 
+              color={tintColor} 
+            />
           ),
         },
       },
@@ -27,9 +29,8 @@ const MainNavigator = createAppContainer(
           title: 'About Me',
           drawerLabel: 'About Me',
           drawerIcon: ({ tintColor }) => (
-            <Icon
+            <FontAwesome
               name="hand-peace-o"
-              type="font-awesome"
               size={24}
               color={tintColor}
             />
@@ -42,9 +43,8 @@ const MainNavigator = createAppContainer(
           title: 'Bla',
           drawerLabel: 'Bla',
           drawerIcon: ({ tintColor }) => (
-            <Icon
+            <FontAwesome
               name="optin-monster"
-              type="font-awesome"
               size={24}
               color={tintColor}
             />
@@ -57,9 +57,8 @@ const MainNavigator = createAppContainer(
           title: 'Bla Bla',
           drawerLabel: 'Bla Bla',
           drawerIcon: ({ tintColor }) => (
-            <Icon
+            <FontAwesome
               name="user-secret"
-              type="font-awesome"
               size={24}
               color={tintColor}
             />

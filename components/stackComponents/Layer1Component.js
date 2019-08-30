@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ImageBackground, Image, Button, Icon } from 'react-native';
+import { View, ImageBackground, Image, Button } from 'react-native';
 
 class Layer1 extends React.Component {
   static navigationOptions = {

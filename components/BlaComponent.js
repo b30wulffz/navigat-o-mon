@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, ImageBackground, Image } from 'react-native';
-import { Icon, Header } from 'react-native-elements';
+import { Header } from 'react-native-elements';
+import { FontAwesome } from '@expo/vector-icons';
 
 class Bla extends React.Component {
   render() {
@@ -8,7 +9,7 @@ class Bla extends React.Component {
       <View style={{ flex: 1 }}>
         <Header
           leftComponent={
-            <Icon
+            <FontAwesome
               name="menu"
               onPress={() => this.props.navigation.openDrawer()}
             />

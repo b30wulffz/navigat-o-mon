@@ -1,17 +1,27 @@
 {
   "expo": {
-    "name": "navigat-o-mon",
-    "description": "No description",
-    "slug": "snack-HyH6UnrHB",
+    "name": "Navigat-o-mon",
+    "description": "A demo app used to show different types of navigation modes in React-Native",
+    "slug": "Navigat-o-mon",
     "privacy": "unlisted",
     "sdkVersion": "34.0.0",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+    "icon": "./assets/icons/app-icon.png",
     "loading": {
-      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+      "icon": "./assets/icons/loading-icon.png",
       "hideExponentText": false
+    },
+    "android": {
+      "package": "com.shlok.navigatomon",
+      "versionCode": 1,
+      "permissions": [],
+      "icon":"./assets/icons/app-icon.png",
+      "splash": {
+        "image": "./assets/icons/loading-icon.png",
+        "resizeMode": "contain"
+      }
     },
     "packagerOpts": {
       "assetExts": [

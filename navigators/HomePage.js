@@ -1,16 +1,12 @@
 import React from 'react';
-import { Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation';
 
 import Home from '../components/HomeComponent';
 import Search from '../components/SearchComponent';
 import Profile from '../components/ProfileComponent';
 import Manager from '../components/ManagerComponent';
 import Notification from '../components/NotificationComponent';
-import Top from '../components/TopComponent';
-
-import { Icon } from 'react-native-elements';
 
 const getTabBarIcon = (navigation, focused, tintColor) => {
   const { routeName } = navigation.state;
