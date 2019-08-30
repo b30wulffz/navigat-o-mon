@@ -1,11 +1,10 @@
 import React from 'react';
 import { Text, View, ImageBackground, Image } from 'react-native';
-import { Button, Icon, Header } from 'react-native-elements';
+import { Button, Header } from 'react-native-elements';
 import {
   createStackNavigator,
-  createNavigationContainer,
 } from 'react-navigation';
-import TopComponent from './TopComponent';
+import { Icon } from '@expo/vector-icons';
 import Layer1 from './stackComponents/Layer1Component';
 import Layer2 from './stackComponents/Layer2Component';
 
@@ -58,7 +57,6 @@ class Home extends React.Component {
               icon={
                 <Icon
                   name="hand-pointer-o"
-                  type="font-awesome"
                   color="#ffffff"
                 />
               }
