@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, ImageBackground, Image } from 'react-native';
-import { Icon, Header } from 'react-native-elements';
+import { Header } from 'react-native-elements';
+import { Ionicons } from '@expo/vector-icons';
 
 class AboutMe extends React.Component {
   render() {
@@ -8,8 +9,9 @@ class AboutMe extends React.Component {
       <View style={{ flex: 1 }}>
         <Header
           leftComponent={
-            <Icon
-              name="menu"
+            <Ionicons
+              name="md-menu"
+              size={26}
               onPress={() => this.props.navigation.openDrawer()}
             />
           }

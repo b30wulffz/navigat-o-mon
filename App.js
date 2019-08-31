@@ -1,7 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import { Header, Icon } from 'react-native-elements';
-
+import { View } from 'react-native';
 import Menu from './navigators/Menu';
 
 export default () => (

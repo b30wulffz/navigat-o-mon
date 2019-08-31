@@ -5,19 +5,23 @@
     "slug": "Navigat-o-mon",
     "privacy": "unlisted",
     "sdkVersion": "34.0.0",
-    "version": "1.0.1",
-    "android": {
-      "package": "com.shlok.navigatomon",
-      "versionCode": 1,
-      "permissions": [],
-      "icon":"./assets/icons/app-icon.png"
-    },
+    "version": "1.0.2",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/icons/app-icon.png",
     "loading": {
       "icon": "./assets/icons/loading-icon.png",
       "hideExponentText": false
+    },
+    "android": {
+      "package": "com.shlok.navigatomon",
+      "versionCode": 1,
+      "permissions": [],
+      "icon":"./assets/icons/app-icon.png",
+      "splash": {
+        "image": "./assets/icons/loading-icon.png",
+        "resizeMode": "contain"
+      }
     },
     "packagerOpts": {
       "assetExts": [
