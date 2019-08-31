@@ -4,7 +4,7 @@ import { Button, Header } from 'react-native-elements';
 import { createStackNavigator } from 'react-navigation';
 import Layer1 from './stackComponents/Layer1Component';
 import Layer2 from './stackComponents/Layer2Component';
-import { FontAwesome } from '@expo/vector-icons';
+import { FontAwesome, Ionicons } from '@expo/vector-icons';
 
 class Home extends React.Component {
   static navigationOptions = {
@@ -20,8 +20,9 @@ class Home extends React.Component {
       <View style={{ flex: 1 }}>
         <Header
           leftComponent={
-            <FontAwesome
-              name="menu"
+            <Ionicons
+              name="md-menu"
+              size={26}
               onPress={() => this.props.navigation.openDrawer()}
             />
           }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View, ImageBackground, Image } from 'react-native';
 import { Header } from 'react-native-elements';
-import { FontAwesome } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
 
 class Profile extends React.Component {
   render() {
@@ -9,8 +9,9 @@ class Profile extends React.Component {
       <View style={{ flex: 1 }}>
         <Header
           leftComponent={
-            <FontAwesome
-              name="menu"
+            <Ionicons
+              name="md-menu"
+              size={26}
               onPress={() => this.props.navigation.openDrawer()}
             />
           }
