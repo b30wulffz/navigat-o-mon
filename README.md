@@ -2,7 +2,7 @@
 
 A demo app used to show different types of navigation modes in React-Native. Here is the demo video. [Click here](https://youtu.be/esHG8fyi2CA) to view it on youtube.
 
-![screen1](./screenShots/screen1.png =250x) ![screen1](screenShots/screen1.png)
+![screen1](./screenShots/screen1.png =250x500) ![screen1](screenShots/screen1.png)
 
 ## Apk file
 
