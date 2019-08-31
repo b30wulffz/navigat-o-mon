@@ -1,10 +1,10 @@
 # Navigate-o-mon
 
-A demo app used to show different types of navigation modes in React-Native. Here is the demo video, [click]() to view on youtube.
+A demo app used to show different types of navigation modes in React-Native. Here is the demo video. [Click here](https://youtu.be/esHG8fyi2CA) to view it on youtube.
 
 ## Apk file
 
-The link to apk file: [click here](https://drive.google.com/open?id=1rTOsoGMY0ceErWaZH14q2fEly-SEYuJm)
+To get the apk file: [click here](https://drive.google.com/open?id=1rTOsoGMY0ceErWaZH14q2fEly-SEYuJm)
 
 ## Installation
 
@@ -13,7 +13,7 @@ Run the following command after cloning the repo.
 ```bash
 cd navigat-o-mon
 ```
-```javascript
+```
 npm install
 ```
 
@@ -26,12 +26,12 @@ yarn add [package-name]
 ```
 
 To run the expo server:
-```bash
+```
 expo start
 ```
 To build the app, run the expo server using the above command and open a new terminal. In this terminal, run:
-```bash
+```
 expo build:android
 ```
 Set all the settings to default, and wait for few minutes.
-The app will be successfully build.
+The app will be successfully compiled.
