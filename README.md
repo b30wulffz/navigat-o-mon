@@ -2,8 +2,6 @@
 
 A demo app used to show different types of navigation modes in React-Native. Here is the demo video. [Click here](https://youtu.be/esHG8fyi2CA) to view it on youtube.
 
-![screen1](screenShots/screen1.png =250*500) ![screen1](screenShots/screen1.png)
-
 ## Apk file
 
 To get the apk file: [click here](https://drive.google.com/open?id=1rTOsoGMY0ceErWaZH14q2fEly-SEYuJm)
@@ -39,3 +37,9 @@ expo build:android
 ```
 Set all the settings to default, and wait for few minutes.
 The app will be successfully compiled.
+
+## Screenshots
+![screen1](screenShots/screen1.png)
+![screen2](screenShots/screen2.png)
+![screen3](screenShots/screen3.png)
+![screen4](screenShots/screen4.png)
