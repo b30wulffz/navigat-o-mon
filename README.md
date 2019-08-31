@@ -6,6 +6,8 @@ A demo app used to show different types of navigation modes in React-Native. Her
 
 To get the apk file: [click here](https://drive.google.com/open?id=1rTOsoGMY0ceErWaZH14q2fEly-SEYuJm)
 
+Note: After installation, keep the internet open and open the app. It may take a while to download the images while loading for the first time. 
+
 ## Installation
 
 Run the following command after cloning the repo.
