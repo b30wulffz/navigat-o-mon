@@ -2,6 +2,8 @@
 
 A demo app used to show different types of navigation modes in React-Native. Here is the demo video. [Click here](https://youtu.be/esHG8fyi2CA) to view it on youtube.
 
+[!screen1](screenShots/screen1.png)
+
 ## Apk file
 
 To get the apk file: [click here](https://drive.google.com/open?id=1rTOsoGMY0ceErWaZH14q2fEly-SEYuJm)
